@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
-Bundle-SymbolicName: Demo_Iflow; singleton:=true
-Bundle-Name: Demo_Iflow
+Bundle-SymbolicName: Demo_xx_Iflow; singleton:=true
+Bundle-Name: Demo_xx_Iflow
 Bundle-Version: 1.0.1
 Bundle-ManifestVersion: 2
-Origin-Bundle-SymbolicName: Demo_Iflow
+Origin-Bundle-SymbolicName: Demo_xx_Iflow
 SAP-NodeType: IFLMAP
 Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collector
@@ -32,7 +32,7 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ,com.sap.esb.camel.endpoint.configurator.api,com.sap.esb.camel.jdbc.i
  dempotency.reorg,javax.sql,org.apache.camel.processor.idempotent.jdbc
  ,org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
-Origin-Bundle-Name: Demo_Iflow
+Origin-Bundle-Name: Demo_xx_Iflow
 SAP-BundleType: IntegrationFlow
 Import-Service: com.sap.esb.webservice.audit.log.AuditLogger,com.sap.e
  sb.security.KeyManagerFactory;multiple:=false,com.sap.esb.security.Tr
